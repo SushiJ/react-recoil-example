@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: darkslategrey;
+}
+.btn {
+  background-color: darksalmon;
+  padding: 1rem;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.box {
+  background-color: olive;
+  transform: translate(none, none);
+  width: 100px;
+  height: 100px;
+  border-radius: 0.25rem;
+  cursor: move;
+  user-select: none;
+  position: absolute;
+}
+
+.bounding-box {
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px aqua dashed;
+}
